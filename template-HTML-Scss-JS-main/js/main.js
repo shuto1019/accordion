@@ -24,7 +24,7 @@ accordionBtns.forEach(btn => {
         removeActive();
     }
     if (!isAlreadyActive) {
-      addActive(accordionContent, ul);
+      addActive(accordionContent, u);
     }
   });
 });
