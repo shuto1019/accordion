@@ -12,6 +12,10 @@
   float: left;
   margin-left: 30px;
 
+  .accordion__sublist:active {
+    overflow-y: auto;
+  }
+
 
     ul {
       height: 0;
@@ -30,9 +34,7 @@
     }
   }
 
-  ul.active {
-    overflow-y: auto;
-  }
+
 
 
 
